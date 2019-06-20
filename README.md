@@ -1,6 +1,6 @@
 # frontbackConnection
 
-## 前端
+## 前端(/mydemo)
 前端使用vue的技术,且向后端请求使用的axios包
 安装axios包的方法如下,但是必须cd到前端项目的根目录下安装
 ```
@@ -21,6 +21,6 @@ npm run dev
 vue init webpack mydemo
 ```
 
-## 后端
+## 后端(/comexampledsh)
 这里后端采用的springboot技术，请注意因为跨域限制，这里在返回值时必须要设置头部信息，具体看IndexController.java代码
 
