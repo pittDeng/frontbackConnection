@@ -19,7 +19,7 @@ export default{
         getfrom:function() {
             self=this;
             let instance=axios.create({
-            baseURL:"http://localhost:8080/",
+            baseURL:"http://192.168.1.112:8080/",
             timeout:1000,
             });
             instance.get("").then(function(response){

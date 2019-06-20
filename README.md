@@ -20,6 +20,10 @@ npm run dev
 //创建vue项目
 vue init webpack mydemo
 ```
+**注意事项**
+
+> + **请注意前端是在客户端运行，因此前端访问后端的地址应该写服务器的绝对地址，否则在客户端无法访问**
+>+ **前端服务器的config里面的host要改为0.0.0.0，否则无法在其他电脑访问**
 
 ## 后端(/comexampledsh)
 这里后端采用的springboot技术，请注意因为跨域限制，这里在返回值时必须要设置头部信息，具体看IndexController.java代码
